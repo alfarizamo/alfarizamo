@@ -56,5 +56,7 @@ with col2:
     ax.tick_params(axis='x', labelsize=15)
  
     st.pyplot(fig)  
- 
+
+st.latex(r''' \int_a^b \alpha^{frac{1}{2} \omega x} \frac{partial^3x} {\partial x^3} dx ''')
+
 st.caption('Copyright © Nugroho Adi Pramono 2023')
